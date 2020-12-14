@@ -1,56 +1,51 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
-import { Button } from './Button';
 import './Navbar.css';
 
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [button, setButton] =useState(true);
-
+    const [navbar, setNavbar] =useState(false);
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
+    
 
-
-    const showButton = () => {
-        if(window.innerWidth <= 960){
-            setButton(false);
+    const changeBackground = () => {
+        if (window.scrollY >= 800){
+            setNavbar(true);
+            
         } else {
-            setButton(true);
+            setNavbar(false);
         }
-    };
+    }
 
-    useEffect(() => {
-        showButton();
-    }, []);
-
-    window.addEventListener('resize', showButton);
+    window.addEventListener('scroll', changeBackground);
+    
 
     return (
         <>
-            <nav className="navbar">
+            <nav className={navbar ? 'navbar active' : 'navbar'}>
                 <div className="navbar-container">
-                    <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                    <a href="/" className="navbar-logo" onClick={closeMobileMenu}>
                         ZERO <i className="fab fa-typo3" />
-                    </Link>
+                    </a>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <a href="/" className='nav-links' onClick={closeMobileMenu}>
                                 Home
-                            </Link>
+                            </a>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <a href="#projects" to='/' className='nav-links' onClick={closeMobileMenu}>
                                 Work
-                            </Link>
+                            </a>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                            <a href="#contact" to='/' className='nav-links' onClick={closeMobileMenu}>
                                 Contact
-                            </Link>
+                            </a>
                         </li>
                     </ul>
                     

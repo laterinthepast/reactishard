@@ -13,6 +13,33 @@ function Cards() {
                             src="/images/1.jpg"
                             text="First website done for Bry"
                             label="Tattoo website"
+                            path="https://mail.google.com/mail/u/0/"
+                            pathgithub="https://github.com/laterinthepast/reactishard"
+                           
+                        />
+                        <CardItem
+                            src="/images/2.jpg"
+                            text="First website done for Bry First website done for Bry First website done for Bry First website done for Bry First website done for BryFirst website done for BryFirst website done for BryFirst website done for BryFirst website done for Bry"
+                            label="Great project for a friend"
+                            path=""
+                            pathgithub="https://github.com/laterinthepast/reactishard"
+                        />
+                        
+                    </ul>
+                    <ul>
+                        <CardItem
+                            src="/images/2.jpg"
+                            text="First website done for Bry First website done for Bry First website done for Bry First website done for Bry First website done for BryFirst website done for BryFirst website done for BryFirst website done for BryFirst website done for Bry"
+                            label="Great project for a friend"
+                            path="/"
+                        />
+                    </ul>
+
+                    <ul className="cards__items">
+                        <CardItem
+                            src="/images/1.jpg"
+                            text="First website done for Bry"
+                            label="Tattoo website"
                             path="/"
                         />
                         <CardItem
@@ -21,8 +48,6 @@ function Cards() {
                             label="Great project for a friend"
                             path="/"
                         />
-                    </ul>
-                    <ul>
                         <CardItem
                             src="/images/2.jpg"
                             text="First website done for Bry First website done for Bry First website done for Bry First website done for Bry First website done for BryFirst website done for BryFirst website done for BryFirst website done for BryFirst website done for Bry"
