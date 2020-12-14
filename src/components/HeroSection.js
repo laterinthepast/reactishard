@@ -9,8 +9,7 @@ function HeroSection() {
             <video src="/video/welcome.mp4" autoPlay loop muted></video> 
                 <h1>zero</h1>
                 <p>web development</p>
-                <div className=".hero-btns">
-                </div>
+                
 
         </div>
     )
