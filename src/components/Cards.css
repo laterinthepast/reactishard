@@ -1,5 +1,5 @@
 .cards {
-    padding: 5rem;
+    padding: rem;
     background: #fff;
   }
   
@@ -7,6 +7,7 @@
     text-align: center;
     letter-spacing: 1rem;
     font-size: 3rem;
+    padding: 1rem;
   }
   .dots_title {
     color: #FFF000;
