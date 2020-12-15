@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 
 function CardItem(props) {
     return (
@@ -16,6 +16,7 @@ function CardItem(props) {
                         <h5 className="cards_item__text">{props.text}</h5>
                         <a href={props.pathgithub}>
                             <i class="fab fa-github cards__links__icon"></i>
+                            <i class="fas fa-link cards__links__icon"></i>
                         </a>
                     </div>
 

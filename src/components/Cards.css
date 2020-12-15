@@ -1,5 +1,5 @@
 .cards {
-    padding: 7rem;
+    padding: 5rem;
     background: #fff;
   }
   
@@ -100,28 +100,23 @@
   
   .cards__item__info {
     padding: 20px 30px;
-    text-align: center;
-    
+    text-align: center; 
   }
   
   .cards_item__text {
     color: black;
     font-size: 12px;
     line-height: 24px;
-    
-    
   }
 
   .cards__links__icon {
     font-size: 2rem;
     color: black;
     padding: 2rem;
-    
   }
   .cards__links__icon:hover {
     transform: scale(1.5);
     transition: all 0.22s ease-out;
-    
   }
 
   @media only screen and (min-width: 1200px) {
@@ -152,15 +147,11 @@
       
       font-size: 12px;
       line-height: 24px;
-      
-      
     }
     
     .cards__links__icon {
       font-size: 2rem;
-      
-      padding: 1rem;
-      
+      padding: 1rem; 
     }
     .cards__items {
       margin-bottom: 24px;
@@ -169,12 +160,9 @@
     }
     .cards {
       padding: 5rem 0 0 0;
-
-      
     }
     .cards__item__info {
       padding: 5px 10px;
       text-align: center;
-      
     }
   }
