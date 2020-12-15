@@ -4,7 +4,7 @@ import '../App.css'
 
 function About() {
     return (
-        <div className="about_section">
+        <div className="about_section" id="about">
             <section className="about_section_wrapper">
                 <h1 className="about_section_header">
                     about<span className="dots_title">.</span>
