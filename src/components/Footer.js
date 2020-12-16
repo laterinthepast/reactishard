@@ -6,8 +6,6 @@ import { Link } from 'react-router-dom';
 function Footer() {
   return (
     <div className='footer-container' id="contact">
-      
-      
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='social-icons'>

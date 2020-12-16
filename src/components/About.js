@@ -11,21 +11,20 @@ function About() {
                 </h1>
                 <p className="about_section_text">
                     The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form accompanied by English versions from the 1914 translation by H. Rackham.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form accompanied by English versions from the 1914 translation by H. Rackham.
-            </p>
-
+                </p>
                 <div className="about_section_img">
-                    <img src="images/image (5).jpg"></img>
+                    <img src="images/image (5).jpg" alt="my image"></img>
                 </div>
                 <div className="about_social_wrapper">
                     <h3 className="about_social_heading">
                         You can find me here
                     </h3>
-                <a href="" className="about_social">
-              <i class='fab fa-instagram' />
-            </a>
-            </div>
+                    <a href="www.instagram.com" className="about_social">
+                        <i class='fab fa-instagram' />
+                    </a>
+                </div>
             </section>
-            
+
 
 
         </div>

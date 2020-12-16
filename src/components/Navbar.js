@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './Navbar.css';
-import { Link } from 'react-router-dom';
 
 
 function Navbar() {
@@ -22,12 +21,16 @@ function Navbar() {
     }
 
     window.addEventListener('scroll', changeBackground);
+
     
+
+
 
     return (
         <>
             <nav className={navbar ? 'navbar active' : 'navbar'}>
                 <div className="navbar-container">
+                <div className="cursor"></div>
                     {/* <a href="/" className="navbar-logo" onClick={closeMobileMenu}>
                          <img src="/images/logo1.png"></img>
                     </a>  */}
@@ -61,6 +64,6 @@ function Navbar() {
             </nav>
         </>
     )
-}
+                }
 
 export default Navbar

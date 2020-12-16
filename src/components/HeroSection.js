@@ -3,34 +3,37 @@ import React from 'react';
 import './HeroSection.css';
 import '../App.css';
 
-
-
-
-
+/* Animation JS */
 let hello = [
     "hello",
     "cześć",
     "hallo",
     "ciao",
     "olá",
-    "你好"
-];
-let i =0;
+    "bonjour",
+    "namaste",
+    "salaam",
+    "ohayo",
+    "merhaba",
+    "szia",
+    "jambo",
+    "nay hoh",
 
-setInterval (function (){
+];
+let i = 0;
+setInterval(function () {
     document.getElementById("random").innerHTML = hello[i];
-    if (i=== (hello.length-1)){
-        i=0;
-    }else {
+    if (i === (hello.length - 1)) {
+        i = 0;
+    } else {
         i++;
     }
-},1000);
-
+}, 2000);
+/* end of animation */
 
 function HeroSection() {
     return (
         <div className='hero-container' id="welcome">
-            {/* <video src="/video/welcome.mp4" autoPlay loop muted></video>  */}
             <h1><span id="random"></span></h1>
             <p>this.isMyPortfolio</p>
 

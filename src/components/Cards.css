@@ -30,7 +30,6 @@
   .cards__items {
     margin-bottom: 24px;
     padding: 3rem;
-
   }
   
   .cards__item {
@@ -38,7 +37,6 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
-    
   }
   
   .cards__item__link {
@@ -59,12 +57,7 @@
     padding-top: 67%;
     overflow: hidden;
   }
-  
-  /* .fade-img {
-    animation-name: fade-img;
-    animation-duration: 2s;
-  } */
-  
+
   .cards__item__pic-wrap::after {
     content: attr(data-category);
     position: absolute;
@@ -140,12 +133,10 @@
 
   @media only screen and (max-width: 700px) {
     h1 {
-      
       letter-spacing: 1rem;
       font-size: 2rem;
     }
     .cards_item__text {
-      
       font-size: 12px;
       line-height: 24px;
     }
@@ -157,7 +148,6 @@
     .cards__items {
       margin-bottom: 24px;
       padding: 2rem 0;
-
     }
     .cards {
       padding: 0;
