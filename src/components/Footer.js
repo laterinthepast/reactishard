@@ -1,39 +1,32 @@
 import React from 'react';
 import './Footer.css';
 
-import { Link } from 'react-router-dom';
-
 function Footer() {
   return (
     <div className='footer-container' id="contact">
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='social-icons'>
-            <Link
+            <a
               class='social-icon-link facebook'
-              to='/'
-              target='https://www.facebook.com/'
-              aria-label='Facebook'
-            >
+              href="https://www.facebook.com/sthlikeelvis/"
+              >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
+            </a>  
             
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
+            <a
+              class='social-icon-link instagram'
+              href="https://www.instagram.com/apha_vegan/"
+              >
+              <i class='fab fa-instagram' />
+            </a>
+            
+            <a
+              class='social-icon-link linkedin'
+              href="https://www.linkedin.com/in/rafal-wrona-b6287688/"
+              >
               <i class='fab fa-linkedin' />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

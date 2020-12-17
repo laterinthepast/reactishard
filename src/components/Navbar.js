@@ -30,10 +30,7 @@ function Navbar() {
         <>
             <nav className={navbar ? 'navbar active' : 'navbar'}>
                 <div className="navbar-container">
-                <div className="cursor"></div>
-                    {/* <a href="/" className="navbar-logo" onClick={closeMobileMenu}>
-                         <img src="/images/logo1.png"></img>
-                    </a>  */}
+                
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
