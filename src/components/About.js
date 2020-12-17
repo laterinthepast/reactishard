@@ -10,7 +10,14 @@ function About() {
                     about<span className="dots_title">.</span>
                 </h1>
                 <p className="about_section_text">
-                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form accompanied by English versions from the 1914 translation by H. Rackham.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form accompanied by English versions from the 1914 translation by H. Rackham.
+                    hi. I am Rafal. I am a freelance front end developer based in London, UK. I've discovered coding over a year ago and despite having a succesfull career doing something completely different, I've decided that I want to pursue front end. Since then, I am in a learning phase of my journey. Learning HTML, CSS, JavaScript, Boostrap and recently I've started React. 
+                    To be honest. I enjoy it. I enjoy making mistakes and learning from them. 
+                    <br/>
+                    Since you are here, have a look at my projects I have been working on. If you would like to collaborate, please drop me a message.
+                    <br/>
+                    Peace 
+                    <br/>
+                    ...and lets keep coding.  
                 </p>
                 <div className="about_section_img">
                     <img src="images/image (5).jpg" alt="my image"></img>
@@ -19,7 +26,7 @@ function About() {
                     <h3 className="about_social_heading">
                         You can find me here
                     </h3>
-                    <a href="www.instagram.com" className="about_social">
+                    <a href="https://www.instagram.com/apha_vegan/" className="about_social">
                         <i class='fab fa-instagram' />
                     </a>
                 </div>
