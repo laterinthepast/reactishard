@@ -13,7 +13,7 @@ function Cards() {
                             src="/images/bry.png"
                             text="Bry is a tattoo artist based in Chippenham. She is fascinated by all things weird, wild and wonderful. You can see that as it reflects in her work.  "
                             label="tattoo artist"
-                            path="https://master.d2vcvrjn8e2khr.amplifyapp.com/"
+                            path="/* https://master.d2vcvrjn8e2khr.amplifyapp.com/ */"
                             pathgithub="https://github.com/laterinthepast/tatoowebsite"
                            
                         />
