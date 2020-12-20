@@ -35,7 +35,7 @@ function HeroSection() {
     return (
         <div className='hero-container' id="welcome">
             <h1><span id="random"></span></h1>
-            <p>this.isMyPortfolio</p>
+            <p>under.construction</p>
 
 
         </div>
