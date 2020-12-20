@@ -1,7 +1,7 @@
 import HeroSection from '../HeroSection';
-import Cards from "../Cards";
+/* import Cards from "../Cards";
 import Footer from "../Footer";
-import About from "../About"
+import About from "../About" */
 
 function Home() {
     return (
