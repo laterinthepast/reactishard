@@ -5,56 +5,44 @@ import './Cards.css';
 function Cards() {
     return (
         <div className="cards" id="projects">
-            <h1>projects<span className="dots_title">.</span></h1>
+
+            
             <div className="cards__container">
+                <div className="divider">
+                    <img src="images/comp2.png" alt="" />
+                </div>
+                <h1>projects<span className="dots_title">.</span></h1>
                 <div className="cards__wrapper">
                     <ul className="cards__items">
                         <CardItem
                             src="/images/bry.png"
-                            text="Bry is a tattoo artist based in Chippenham. She is fascinated by all things weird, wild and wonderful. You can see that as it reflects in her work.  "
+                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et molestie ac feugiat sed lectus vestibulum. Quis risus sed vulputate odio ut enim blandit"
                             label="tattoo artist"
-                            path="/* https://master.d2vcvrjn8e2khr.amplifyapp.com/ */"
+                            path="https://master.d1g9j9nfgc6y7s.amplifyapp.com/"
                             pathgithub="https://github.com/laterinthepast/tatoowebsite"
-                           
+
                         />
                         <CardItem
                             src="/images/marta.png"
-                            text="Marta is a massage therapist based in London. 
-                            She is a great person and a skilled professional"
+                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et molestie ac feugiat sed lectus vestibulum. Quis risus sed vulputate odio ut enim blandit"
                             label="massage therapist"
                             path="https://main.d1oyiwpw3wrols.amplifyapp.com/"
                             pathgithub="https://github.com/laterinthepast/m_website"
                         />
-                        
+                        <CardItem
+                            src="/images/1.jpg"
+                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et molestie ac feugiat sed lectus vestibulum. Quis risus sed vulputate odio ut enim blandit"
+                            label="coming soon"
+                            path=""
+                            pathgithub=""
+                        />
                     </ul>
                     <ul>
 
-                        <h1>More to come...</h1>
-                        {/* <CardItem
-                            src="/images/massage.jpg"
-                            text="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form accompanied by English versions from the 1914 translation by H. Rackham."
-                            label="Great project for a friend"
-                            path="https://mail.google.com/mail/u/0/"
-                            pathgithub="https://github.com/laterinthepast/reactishard"
-                        />
-                    </ul>
 
-                    <ul className="cards__items">
-                        <CardItem
-                            src="/images/dentist.jpg"
-                            text="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form accompanied by English versions from the 1914 translation by H. Rackham."
-                            label="Tattoo website"
-                            path="https://mail.google.com/mail/u/0/"
-                            pathgithub="https://github.com/laterinthepast/reactishard"
-                        />
-                        <CardItem
-                            src="/images/image (1).jpg"
-                            text="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form accompanied by English versions from the 1914 translation by H. Rackham."
-                            label="Great project for a friend"
-                            path="https://mail.google.com/mail/u/0/"
-                            pathgithub="https://github.com/laterinthepast/reactishard"
-                        /> */}
-                        
+                        <h1>More to come...</h1>
+
+
                     </ul>
 
                 </div>

@@ -6,6 +6,9 @@ function About() {
     return (
         <div className="about_section" id="about">
             <section className="about_section_wrapper">
+                <div>
+                    <img src="images/comp1.png" alt=""/>
+                </div>
                 <h1 className="about_section_header">
                     about<span className="dots_title">.</span>
                 </h1>

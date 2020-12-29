@@ -1,13 +1,16 @@
 .cards {
-    padding: rem;
-    background: #fff;
+    padding: 0rem;
+    background: rgb(64,58,132);
+background: linear-gradient(90deg, rgba(64,58,132,1) 0%, rgba(91,51,132,1) 22%, rgba(125,41,132,1) 48%, rgba(153,33,132,1) 74%, rgba(180,25,132,1) 100%);
   }
-  
-  h1 {
+  .divider img {
+    padding-bottom: 3rem;
+  }
+  .cards h1 {
     text-align: center;
-    letter-spacing: 1rem;
+    letter-spacing: 0.3rem;
     font-size: 3rem;
-    padding: 1rem;
+    padding: 0;
   }
   .dots_title {
     color: #FFF000;
@@ -29,7 +32,7 @@
   
   .cards__items {
     margin-bottom: 24px;
-    padding: 3rem;
+    padding: 2rem;
   }
   
   .cards__item {

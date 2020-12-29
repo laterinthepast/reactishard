@@ -22,10 +22,6 @@ function Navbar() {
 
     window.addEventListener('scroll', changeBackground);
 
-    
-
-
-
     return (
         <>
             <nav className={navbar ? 'navbar active' : 'navbar'}>
