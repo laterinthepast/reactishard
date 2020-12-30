@@ -29,7 +29,7 @@ function About() {
                     <h3 className="about_social_heading">
                         You can find me here
                     </h3>
-                    <a href="https://www.instagram.com/apha_vegan/" className="about_social">
+                    <a href="https://www.instagram.com/lookmumicancode/" className="about_social">
                         <i class='fab fa-instagram' />
                     </a>
                 </div>
