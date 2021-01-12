@@ -16,31 +16,26 @@ function Cards() {
                     <ul className="cards__items">
                         <CardItem
                             src="/images/bry.png"
-                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et molestie ac feugiat sed lectus vestibulum. Quis risus sed vulputate odio ut enim blandit"
+                            text="Bry is a talented tattoo artist based in Chippenham, UK. Follow the links below for source code and live website."
                             label="tattoo artist"
-                            path="https://master.d1g9j9nfgc6y7s.amplifyapp.com/"
-                            pathgithub="https://github.com/laterinthepast/tatoowebsite"
+                            path="https://mellerdramatic.com"
+                            pathgithub="https://github.com/laterinthepast/bry-react"
 
                         />
                         <CardItem
                             src="/images/marta.png"
-                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et molestie ac feugiat sed lectus vestibulum. Quis risus sed vulputate odio ut enim blandit"
-                            label="massage therapist"
-                            path="https://main.d1oyiwpw3wrols.amplifyapp.com/"
+                            text="under construction - bob the builder - watch this space"
+                            label="under construction"
+                            path="./"
                             pathgithub="https://github.com/laterinthepast/m_website"
                         />
-                        <CardItem
-                            src="/images/1.jpg"
-                            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et molestie ac feugiat sed lectus vestibulum. Quis risus sed vulputate odio ut enim blandit"
-                            label="coming soon"
-                            path=""
-                            pathgithub=""
-                        />
+                        
                     </ul>
                     <ul>
 
 
                         <h1>More to come...</h1>
+                        
 
 
                     </ul>

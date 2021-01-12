@@ -36,9 +36,7 @@ function HeroSection() {
         <div className='hero-container' id="welcome">
             <h1><span id="random"></span></h1>
             <p>i'm rafal.</p>
-            <div className="arrow">
-              <img src="/images/arrow.png" alt=""/>  
-            </div>
+            
             
 
         </div>

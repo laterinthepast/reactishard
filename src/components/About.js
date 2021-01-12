@@ -23,7 +23,7 @@ function About() {
                     ...and lets keep coding.  
                 </p>
                 <div className="about_section_img">
-                    <img src="images/image (5).jpg" alt="my"></img>
+                    <img src="images/profile.jpg" alt="my"></img>
                 </div>
                 <div className="about_social_wrapper">
                     <h3 className="about_social_heading">
