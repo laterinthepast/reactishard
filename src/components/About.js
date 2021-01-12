@@ -13,7 +13,7 @@ function About() {
                     about<span className="dots_title">.</span>
                 </h1>
                 <p className="about_section_text">
-                    hi. I am Rafal. I am a freelance front end developer based in London, UK. I've discovered coding over a year ago and despite having a successful career doing something completely different, I've decided that I want to pursue front end. Since then, I am in a learning phase of my journey. Learning HTML, CSS, JavaScript, Boostrap and recently I've started React. 
+                    hi. I am Rafal. I am a freelance front end developer based in London, UK. I've discovered coding over a year ago and despite having a successful career doing something completely different, I've decided that I want to pursue front end. Since then, I am in a learning phase of my journey. Learning HTML, CSS, JavaScript, Bootstrap and recently I've started React. 
                     To be honest. I enjoy it. I enjoy making mistakes and learning from them. 
                     <br/>
                     Since you are here, have a look at my projects I have been working on. If you would like to collaborate, please drop me a message.
