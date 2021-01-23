@@ -1,7 +1,7 @@
 import React from 'react';
 
-import './HeroSection.css';
-import '../App.css';
+import './styles/HeroSection.scss';
+import '../App.scss';
 
 /* Animation JS */
 let hello = [
@@ -36,9 +36,6 @@ function HeroSection() {
         <div className='hero-container' id="welcome">
             <h1><span id="random"></span></h1>
             <p>i'm rafal.</p>
-            
-            
-
         </div>
     )
 }

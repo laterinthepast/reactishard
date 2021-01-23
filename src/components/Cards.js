@@ -1,12 +1,10 @@
 import React from 'react';
 import CardItem from './CardItem';
-import './Cards.css';
+import './styles/Cards.scss';
 
 function Cards() {
     return (
         <div className="cards" id="projects">
-
-            
             <div className="cards__container">
                 <div className="divider">
                     <img src="images/comp2.png" alt="" />
@@ -20,7 +18,6 @@ function Cards() {
                             label="tattoo artist"
                             path="https://mellerdramatic.com"
                             pathgithub="https://github.com/laterinthepast/bry-react"
-
                         />
                         <CardItem
                             src="/images/marta.png"
@@ -29,17 +26,10 @@ function Cards() {
                             path="./"
                             pathgithub="https://github.com/laterinthepast/m_website"
                         />
-                        
                     </ul>
                     <ul>
-
-
                         <h1>More to come...</h1>
-                        
-
-
                     </ul>
-
                 </div>
             </div>
         </div>
