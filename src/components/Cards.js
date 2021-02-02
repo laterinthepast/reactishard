@@ -22,7 +22,7 @@ function Cards() {
                         <CardItem
                             src="/images/marta.png"
                             text="under construction - bob the builder - watch this space"
-                            label="under construction"
+                            label="under construction...."
                             path="./"
                             pathgithub="https://github.com/laterinthepast/m_website"
                         />
